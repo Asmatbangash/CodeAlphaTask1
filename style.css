@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+*{
+  
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('/img/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    font-family: "Baskervville SC", serif;
+}
+
+
+.card-items .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(180, 180, 180, 0.4);
+    border-radius: 10px;
+    width: 400px;
+    padding: 30px 0px;
+
+}
+
+.item img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.item .btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.item .btn:hover{
+   background-color: darkgray;
+   color: white;
+   
+}
